@@ -4,6 +4,6 @@ def oxford_comma(array)
   else
     last = array.pop
     joined = array.join(", ")
-    joined << "and #{last}"
+    joined << ", and #{last}"
   end
 end
